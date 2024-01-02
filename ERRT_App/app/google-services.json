@@ -1,41 +1,49 @@
 {
   "project_info": {
-    "project_number": "617459827983",
-    "project_id": "modulodosfirebasecdi-arnau",
-    "storage_bucket": "modulodosfirebasecdi-arnau.appspot.com"
+    "project_number": "779379692357",
+    "project_id": "aa3-errt",
+    "storage_bucket": "aa3-errt.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:617459827983:android:f99fcaf2a6d005c5de6a7a",
+        "mobilesdk_app_id": "1:779379692357:android:0690036c395b7e6acc242c",
         "android_client_info": {
-          "package_name": "com.enti.dostres.cdi.arnauvilar.blocfirebase"
+          "package_name": "com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring"
         }
       },
       "oauth_client": [
         {
-          "client_id": "617459827983-8nh60is6i2ic3jjn10nk7s6r2u5nhq0n.apps.googleusercontent.com",
+          "client_id": "779379692357-58f3h018trtiisdiffdq9pilm37h5erb.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.enti.dostres.cdi.arnauvilar.blocfirebase",
-            "certificate_hash": "374a596d8dba026f75b0d981fcc101ddb15a4016"
+            "package_name": "com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring",
+            "certificate_hash": "0ffcc3edcddb04c4e2c7520d2acaf3ca3f324b25"
           }
         },
         {
-          "client_id": "617459827983-hoa55tr27lh5u94vjbrldoqfqud0eo3m.apps.googleusercontent.com",
+          "client_id": "779379692357-6khrg7jt7hg5hgvseibvin94fj1b6tv0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring",
+            "certificate_hash": "494d17c2b24abd26394deb7f16f7673fe9b3e4c5"
+          }
+        },
+        {
+          "client_id": "779379692357-9vp2uf1lo9j2s751rbnb97k1289kdqgr.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC-80seYpWGbltxktKbuCLscpYMSixh6x4"
+          "current_key": "AIzaSyBLJ0Xbg7E2PrtZmP3LyciCFRk-oG15mRc"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "617459827983-hoa55tr27lh5u94vjbrldoqfqud0eo3m.apps.googleusercontent.com",
+              "client_id": "779379692357-9vp2uf1lo9j2s751rbnb97k1289kdqgr.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
