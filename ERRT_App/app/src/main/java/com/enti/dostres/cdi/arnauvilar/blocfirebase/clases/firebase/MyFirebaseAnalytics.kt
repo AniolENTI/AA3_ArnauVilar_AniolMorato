@@ -1,4 +1,4 @@
-package com.enti.dostres.cdi.arnauvilar.blocfirebase.clases.firebase
+package com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.clases.firebase
 
 import android.app.Application
 import android.os.Bundle

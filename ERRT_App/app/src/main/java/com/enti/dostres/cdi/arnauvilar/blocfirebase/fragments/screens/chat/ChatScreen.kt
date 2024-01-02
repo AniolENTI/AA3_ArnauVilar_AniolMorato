@@ -1,4 +1,4 @@
-package com.enti.dostres.cdi.arnauvilar.blocfirebase.fragments.screens.chat
+package com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.fragments.screens.chat
 
 import android.net.Uri
 import android.os.Bundle
@@ -10,10 +10,10 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.enti.dostres.cdi.arnauvilar.blocfirebase.MyApp
-import com.enti.dostres.cdi.arnauvilar.blocfirebase.R
-import com.enti.dostres.cdi.arnauvilar.blocfirebase.clases.firebase.FB
-import com.enti.dostres.cdi.arnauvilar.blocfirebase.fragments.components.AppDrawer
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.MyApp
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.R
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.clases.firebase.FB
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.fragments.components.AppDrawer
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.textfield.TextInputLayout
 

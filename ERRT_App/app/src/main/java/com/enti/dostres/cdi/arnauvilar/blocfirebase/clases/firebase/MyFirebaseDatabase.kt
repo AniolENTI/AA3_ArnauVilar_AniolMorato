@@ -1,6 +1,6 @@
-package com.enti.dostres.cdi.arnauvilar.blocfirebase.clases.firebase
+package com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.clases.firebase
 
-import com.enti.dostres.cdi.arnauvilar.blocfirebase.clases.models.DbBaseData
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.clases.models.DbBaseData
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 

@@ -1,12 +1,12 @@
-package com.enti.dostres.cdi.arnauvilar.blocfirebase.fragments.components
+package com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.fragments.components
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.enti.dostres.cdi.arnauvilar.blocfirebase.R
-import com.enti.dostres.cdi.arnauvilar.blocfirebase.clases.firebase.FB
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.R
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.clases.firebase.FB
 import com.google.android.material.appbar.MaterialToolbar
 import com.google.firebase.Firebase
 import com.google.firebase.crashlytics.crashlytics

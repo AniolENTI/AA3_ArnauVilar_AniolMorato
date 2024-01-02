@@ -1,8 +1,8 @@
-package com.enti.dostres.cdi.arnauvilar.blocfirebase.clases.firebase
+package com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.clases.firebase
 
 import android.app.Application
-import com.enti.dostres.cdi.arnauvilar.blocfirebase.R
-import com.enti.dostres.cdi.arnauvilar.blocfirebase.clases.models.DbUser
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.R
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.clases.models.DbUser
 import com.google.firebase.auth.FirebaseAuth
 
 class MyFirebaseAuth(val appContext: Application) {

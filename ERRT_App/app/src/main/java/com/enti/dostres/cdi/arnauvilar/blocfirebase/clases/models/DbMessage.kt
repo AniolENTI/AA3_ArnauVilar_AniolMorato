@@ -1,4 +1,4 @@
-package com.enti.dostres.cdi.arnauvilar.blocfirebase.clases.models
+package com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.clases.models
 
 import com.google.firebase.firestore.ServerTimestamp
 import java.util.Date

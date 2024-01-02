@@ -1,11 +1,11 @@
-package com.enti.dostres.cdi.arnauvilar.blocfirebase.fragments.components
+package com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.fragments.components
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.enti.dostres.cdi.arnauvilar.blocfirebase.R
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 class AppBottomBar: Fragment() {

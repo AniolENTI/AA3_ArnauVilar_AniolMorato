@@ -1,11 +1,11 @@
-package com.enti.dostres.cdi.arnauvilar.blocfirebase.fragments.screens.chat
+package com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.fragments.screens.chat
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
-import com.enti.dostres.cdi.arnauvilar.blocfirebase.R
-import com.enti.dostres.cdi.arnauvilar.blocfirebase.clases.firebase.FB
-import com.enti.dostres.cdi.arnauvilar.blocfirebase.clases.models.DbMessage
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.R
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.clases.firebase.FB
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.clases.models.DbMessage
 
 class MessagesAdapter(table:RecyclerView): RecyclerView.Adapter<MessageViewHolder>() {
 

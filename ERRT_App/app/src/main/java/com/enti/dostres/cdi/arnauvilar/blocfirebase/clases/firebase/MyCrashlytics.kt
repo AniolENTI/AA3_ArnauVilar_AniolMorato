@@ -1,4 +1,4 @@
-package com.enti.dostres.cdi.arnauvilar.blocfirebase.clases.firebase
+package com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.clases.firebase
 
 import com.google.firebase.Firebase
 import com.google.firebase.crashlytics.KeyValueBuilder

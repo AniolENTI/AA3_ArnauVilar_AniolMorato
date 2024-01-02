@@ -1,4 +1,4 @@
-package com.enti.dostres.cdi.arnauvilar.blocfirebase.fragments.screens
+package com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.fragments.screens
 
 import android.app.Activity.RESULT_OK
 import android.os.Bundle
@@ -6,10 +6,10 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
-import com.enti.dostres.cdi.arnauvilar.blocfirebase.R
-import com.enti.dostres.cdi.arnauvilar.blocfirebase.clases.firebase.FB
-import com.enti.dostres.cdi.arnauvilar.blocfirebase.clases.models.DbUser
-import com.enti.dostres.cdi.arnauvilar.blocfirebase.fragments.components.AppDrawer
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.R
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.clases.firebase.FB
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.clases.models.DbUser
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.fragments.components.AppDrawer
 import com.firebase.ui.auth.AuthUI
 import com.firebase.ui.auth.AuthUI.SignInIntentBuilder
 import com.firebase.ui.auth.FirebaseAuthUIActivityResultContract

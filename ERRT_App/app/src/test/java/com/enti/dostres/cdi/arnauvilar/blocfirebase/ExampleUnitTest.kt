@@ -1,4 +1,4 @@
-package com.enti.dostres.cdi.arnauvilar.blocfirebase
+package com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring
 
 import org.junit.Test
 

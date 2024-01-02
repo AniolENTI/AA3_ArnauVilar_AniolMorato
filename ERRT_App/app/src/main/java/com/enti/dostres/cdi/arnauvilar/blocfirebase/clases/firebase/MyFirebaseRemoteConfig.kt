@@ -1,6 +1,6 @@
-package com.enti.dostres.cdi.arnauvilar.blocfirebase.clases.firebase
+package com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.clases.firebase
 
-import com.enti.dostres.cdi.arnauvilar.blocfirebase.R
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.R
 import com.google.firebase.ktx.Firebase
 import com.google.firebase.remoteconfig.ktx.remoteConfig
 import com.google.firebase.remoteconfig.ktx.remoteConfigSettings

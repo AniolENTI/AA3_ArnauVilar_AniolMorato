@@ -1,9 +1,9 @@
-package com.enti.dostres.cdi.arnauvilar.blocfirebase.activities
+package com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.activities
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.enti.dostres.cdi.arnauvilar.blocfirebase.R
-import com.enti.dostres.cdi.arnauvilar.blocfirebase.clases.firebase.FB
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.R
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.clases.firebase.FB
 
 class MainActivity : AppCompatActivity() {
 

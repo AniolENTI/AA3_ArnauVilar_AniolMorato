@@ -1,11 +1,11 @@
-package com.enti.dostres.cdi.arnauvilar.blocfirebase
+package com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring
 
 import android.app.Activity
 import android.app.Application
 import android.view.View
 import android.view.inputmethod.InputMethodManager
-import com.enti.dostres.cdi.arnauvilar.blocfirebase.clases.firebase.FB
-import com.enti.dostres.cdi.arnauvilar.blocfirebase.clases.firebase.MyFirebase
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.clases.firebase.FB
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.clases.firebase.MyFirebase
 
 class MyApp: Application() {
 

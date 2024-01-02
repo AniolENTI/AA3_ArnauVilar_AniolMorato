@@ -1,4 +1,4 @@
-package com.enti.dostres.cdi.arnauvilar.blocfirebase.fragments.screens.chat
+package com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.fragments.screens.chat
 
 import android.graphics.BitmapFactory
 import android.view.Gravity
@@ -6,9 +6,9 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.LinearLayout
 import androidx.recyclerview.widget.RecyclerView
-import com.enti.dostres.cdi.arnauvilar.blocfirebase.R
-import com.enti.dostres.cdi.arnauvilar.blocfirebase.clases.firebase.FB
-import com.enti.dostres.cdi.arnauvilar.blocfirebase.clases.models.DbMessage
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.R
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.clases.firebase.FB
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.clases.models.DbMessage
 import com.google.android.material.textview.MaterialTextView
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
