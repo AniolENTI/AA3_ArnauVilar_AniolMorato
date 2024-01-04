@@ -1,4 +1,4 @@
-package com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring
+package com.enti.dostres.cdi.arnauvilar.eldenring
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
