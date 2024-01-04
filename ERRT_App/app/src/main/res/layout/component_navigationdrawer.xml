@@ -14,7 +14,7 @@
 
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/componentToolbarContainer"
-            android:name="com.enti.dostres.cdi.arnauvilar.blocfirebase.fragments.components.AppToolbar"
+            android:name="com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.fragments.components.AppToolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -23,7 +23,7 @@
 
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/componentNavigationNavHostContainer"
-            android:name="com.enti.dostres.cdi.arnauvilar.blocfirebase.fragments.components.AppNavHost"
+            android:name="com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.fragments.components.AppNavHost"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:layout="@layout/component_navhost"
@@ -33,7 +33,7 @@
 
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/componentNavigationBottomBarContainer"
-            android:name="com.enti.dostres.cdi.arnauvilar.blocfirebase.fragments.components.AppBottomBar"
+            android:name="com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.fragments.components.AppBottomBar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"

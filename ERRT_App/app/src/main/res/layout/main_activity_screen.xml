@@ -8,7 +8,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/navigationDrawerContainer"
-        android:name="com.enti.dostres.cdi.arnauvilar.blocfirebase.fragments.components.AppDrawer"
+        android:name="com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.fragments.components.AppDrawer"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:layout="@layout/component_navigationdrawer"

@@ -8,7 +8,7 @@
 
     <fragment
         android:id="@+id/home_navigation_screen"
-        android:name="com.enti.dostres.cdi.arnauvilar.blocfirebase.fragments.screens.HomeScreen"
+        android:name="com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.fragments.screens.HomeScreen"
         android:label="@string/home_title"
         tools:layout="@layout/screen_home"
         >
@@ -23,7 +23,7 @@
 
     <fragment
         android:id="@+id/chat_navigation_screen"
-        android:name="com.enti.dostres.cdi.arnauvilar.blocfirebase.fragments.screens.chat.ChatScreen"
+        android:name="com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.fragments.screens.chat.ChatScreen"
         android:label="@string/chat_title"
         tools:layout="@layout/screen_chat"
         >
