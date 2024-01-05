@@ -26,17 +26,6 @@ class LoginScreen: Fragment() {
 
     lateinit var fragmentView: View
 
-    val usernameContainer by lazy { fragmentView.findViewById<MaterialCardView>(R.id.usernameInputContainer) }
-    val usernameInput by lazy { fragmentView.findViewById<TextInputLayout>(R.id.usernameInput) }
-
-    val passwordContainer by lazy { fragmentView.findViewById<MaterialCardView>(R.id.passwordInputContainer) }
-    val passwordInput by lazy { fragmentView.findViewById<TextInputLayout>(R.id.passwordInput) }
-
-    val verifyPasswordContainer by lazy { fragmentView.findViewById<MaterialCardView>(R.id.verifyPasswordInputContainer) }
-    val verifyPasswordInput by lazy { fragmentView.findViewById<TextInputLayout>(R.id.verifyPasswordInput) }
-
-    val emailLoginButton by lazy { fragmentView.findViewById<MaterialButton>(R.id.loginButton) }
-    val registerButton by lazy { fragmentView.findViewById<MaterialButton>(R.id.registerButton) }
     val googleAuthButton by lazy { fragmentView.findViewById<SignInButton>(R.id.login_google_button) }
 
     val signInLauncher = registerForActivityResult(FirebaseAuthUIActivityResultContract()) { res ->
@@ -59,38 +48,7 @@ class LoginScreen: Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        emailLoginButton.setOnClickListener { emailLogin() }
-        registerButton.setOnClickListener { startRegister() }
         googleAuthButton.setOnClickListener { googleAuth() }
-
-    }
-
-    private fun emailLogin() {
-
-    }
-
-    private fun startRegister() {
-        verifyPasswordContainer.visibility = View.VISIBLE
-
-        emailLoginButton.text = getString(R.string.back_to_login_button)
-        registerButton.text = getString(R.string.end_register_button)
-
-        emailLoginButton.setOnClickListener {
-
-            verifyPasswordContainer.visibility = View.GONE
-
-            emailLoginButton.text = getString(R.string.login_button)
-            registerButton.text = getString(R.string.register_button)
-
-            emailLoginButton.setOnClickListener { emailLogin() }
-            registerButton.setOnClickListener { startRegister() }
-        }
-
-        registerButton.setOnClickListener { endRegister() }
-
-    }
-
-    private fun endRegister() {
 
     }
 
