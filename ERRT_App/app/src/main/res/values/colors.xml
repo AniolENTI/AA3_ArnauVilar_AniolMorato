@@ -2,7 +2,7 @@
 <resources>
 
     <!-- Base Colors-->
-    <color name="baseGrey">#444045</color>
+    <color name="baseGrey">#2F2D27</color>
     <color name="lighterGrey">#666267</color>
     <color name="baseLight">#EDDC9D</color>
     <color name="lighterLight">#F3E8C3</color>
@@ -14,7 +14,14 @@
     <!-- Indication Colors-->
     <color name="baseBlue">#012B54</color>
     <color name="baseRed">#661209</color>
-    <color name="baseGreen">#1f422c</color>
+    <color name="baseGreen">#405957</color>
+    <color name="baseBrown">#6C4F36</color>
+    <color name="baseYellow">#E5C452</color>
+
+    <color name="lighterBrown">#4A4539</color>
+    <color name="lighterGreen">#8EACAA</color>
+    <color name="selectedBrown">#C1A880</color>
+
 
     <!-- Auxiliary Colors-->
     <color name="debugColor">#FF00FB</color>
