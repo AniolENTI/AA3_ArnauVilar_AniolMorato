@@ -43,19 +43,19 @@ class AppBottomBar: Fragment() {
             if(menuItem.itemId != bottomBar.selectedItemId) {
                 when (menuItem.itemId) {
                     R.id.map_bottom_bar_button -> {
-                        AppNavHost.get().navHost.navigate(R.id.transition_items_to_map)
+                        AppNavHost.get().navHost.navigate(R.id.map_navigation_screen)
                     }
 
                     R.id.items_bottom_bar_button -> {
-                        AppNavHost.get().navHost.navigate(R.id.transition_map_to_items)
+                        AppNavHost.get().navHost.navigate(R.id.items_navigation_screen)
                     }
 
                     R.id.achievements_bottom_bar_button -> {
-
+                        AppNavHost.get().navHost.navigate(R.id.achievements_navigation_screen)
                     }
 
                     R.id.notes_bottom_bar_button -> {
-
+                        AppNavHost.get().navHost.navigate(R.id.notes_navigation_screen)
                     }
                 }
             }

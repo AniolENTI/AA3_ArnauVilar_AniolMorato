@@ -36,4 +36,22 @@
 
     </fragment>
 
+    <fragment
+        android:id="@+id/achievements_navigation_screen"
+        android:name="com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.fragments.screens.AchievementsScreen"
+        android:label="@string/achievements_title"
+        tools:layout="@layout/screen_achievements"
+        >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/notes_navigation_screen"
+        android:name="com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.fragments.screens.NotesScreen"
+        android:label="@string/notes_title"
+        tools:layout="@layout/screen_notes"
+        >
+
+    </fragment>
+
 </navigation>
