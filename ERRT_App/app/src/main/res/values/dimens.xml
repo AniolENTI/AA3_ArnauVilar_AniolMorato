@@ -20,7 +20,7 @@
     <dimen name="radius_normal">@dimen/tiny</dimen>
 
     <!-- Button Size-->
-    <dimen name="bottom_bar_icons">@dimen/giant</dimen>
+    <dimen name="bottom_bar_icons">@dimen/large</dimen>
     <dimen name="margin_message">@dimen/small</dimen>
 
 </resources>

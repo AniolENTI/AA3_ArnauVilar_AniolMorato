@@ -16,5 +16,12 @@
     <string name="profile_title">Profile</string>
     <string name="chat_messages_hint">Message</string>
     <string name="chat_upload_image_error">UploadImageError</string>
+    <string name="map_title">Map</string>
+    <string name="items_title">Items</string>
+    <string name="achievements_title">Achievements</string>
+    <string name="notes_title">Notes</string>
+    <string name="equipment_title">Equipment</string>
+    <string name="consumables_title">Consumables</string>
+    <string name="key_items_title">Key Items</string>
 
 </resources>

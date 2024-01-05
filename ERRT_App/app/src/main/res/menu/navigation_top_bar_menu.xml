@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/equipment_top_bar_button"
+        android:icon="@drawable/equipment_icon"
+        android:title="@string/equipment_title"
+        />
+
+    <item
+        android:id="@+id/consumables_top_bar_button"
+        android:icon="@drawable/consumables_icon"
+        android:title="@string/consumables_title"
+        />
+
+    <item
+        android:id="@+id/key_items_top_bar_button"
+        android:icon="@drawable/key_items_icon"
+        android:title="@string/key_items_title"
+        />
+</group>
+</menu>

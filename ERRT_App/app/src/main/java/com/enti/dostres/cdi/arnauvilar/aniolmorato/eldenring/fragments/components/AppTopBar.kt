@@ -8,15 +8,15 @@ import androidx.fragment.app.Fragment
 import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.R
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
-class AppBottomBar: Fragment() {
+class AppTopBar: Fragment() {
 
     companion object {
-        private lateinit var Instance: AppBottomBar
+        private lateinit var Instance: AppTopBar
 
         fun get() = Instance
     }
 
-    lateinit var bottomBar: BottomNavigationView
+    lateinit var topBar: BottomNavigationView
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -28,40 +28,36 @@ class AppBottomBar: Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val view = inflater.inflate(R.layout.component_bottombar, container, false)
-        bottomBar = view.findViewById(R.id.AppNavigationBottomBar)
+        val view = inflater.inflate(R.layout.component_topbar, container, false)
+        topBar = view.findViewById(R.id.AppNavigationTopBar)
         return view
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        bottomBar.setOnItemSelectedListener { menuItem ->
+        topBar.setOnItemSelectedListener { menuItem ->
 
             AppToolbar.get().toolbar.title = menuItem.title
 
-            if(menuItem.itemId != bottomBar.selectedItemId) {
+            if(menuItem.itemId != topBar.selectedItemId) {
                 when (menuItem.itemId) {
-                    R.id.map_bottom_bar_button -> {
-                        AppNavHost.get().navHost.navigate(R.id.transition_items_to_map)
-                    }
-
-                    R.id.items_bottom_bar_button -> {
-                        AppNavHost.get().navHost.navigate(R.id.transition_map_to_items)
-                    }
-
-                    R.id.achievements_bottom_bar_button -> {
+                    R.id.equipment_top_bar_button -> {
 
                     }
 
-                    R.id.notes_bottom_bar_button -> {
+                    R.id.consumables_top_bar_button -> {
+
+                    }
+
+                    R.id.key_items_top_bar_button -> {
 
                     }
                 }
             }
             true
         }
-        bottomBar.selectedItemId = bottomBar.menu.getItem(0).itemId
+        topBar.selectedItemId = topBar.menu.getItem(0).itemId
     }
 
 }
