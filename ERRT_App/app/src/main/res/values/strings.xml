@@ -24,4 +24,7 @@
     <string name="consumables_title">Consumables</string>
     <string name="key_items_title">Key Items</string>
 
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus vitae sapien sed malesuada. Donec at tellus luctus, fermentum diam sed, accumsan tellus. Vestibulum a suscipit justo, sit amet varius est.</string>
+
+
 </resources>

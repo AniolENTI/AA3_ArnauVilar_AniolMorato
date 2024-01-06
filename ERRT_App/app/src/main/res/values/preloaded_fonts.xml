@@ -2,6 +2,7 @@
 <resources>
     <array name="preloaded_fonts" translatable="false">
         <item>@font/spectral_extrabold</item>
+        <item>@font/spectral_italic</item>
         <item>@font/spectral_semibold</item>
     </array>
 </resources>
