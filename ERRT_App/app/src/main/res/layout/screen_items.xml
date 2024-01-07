@@ -19,6 +19,11 @@
             tools:layout="@layout/component_topbar"
             />
 
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/my_items_table"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
     </LinearLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
