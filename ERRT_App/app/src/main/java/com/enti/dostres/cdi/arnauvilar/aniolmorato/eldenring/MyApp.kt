@@ -12,6 +12,7 @@ class MyApp: Application() {
     companion object {
         private lateinit var instance: MyApp
 
+        public val Context: MyApp get() = instance
         fun get() = instance
     }
 
