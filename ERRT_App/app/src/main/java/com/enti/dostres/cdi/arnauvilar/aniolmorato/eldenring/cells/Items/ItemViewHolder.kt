@@ -1,3 +1,5 @@
+package com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.cells.Items
+
 import android.view.View
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView.ViewHolder

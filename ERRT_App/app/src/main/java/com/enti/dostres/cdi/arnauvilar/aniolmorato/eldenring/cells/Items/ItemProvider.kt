@@ -1,4 +1,6 @@
-import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.cells.Achievements.Repositories.ItemRepository
+package com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.cells.Items
+
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.cells.Items.Repositories.ItemRepository
 
 class ItemProvider(val repository: ItemRepository) {
 

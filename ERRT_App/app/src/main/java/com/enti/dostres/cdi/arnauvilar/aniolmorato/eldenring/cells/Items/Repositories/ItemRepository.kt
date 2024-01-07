@@ -1,4 +1,4 @@
-package com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.cells.Achievements.Repositories
+package com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.cells.Items.Repositories
 
 import ItemData
 
