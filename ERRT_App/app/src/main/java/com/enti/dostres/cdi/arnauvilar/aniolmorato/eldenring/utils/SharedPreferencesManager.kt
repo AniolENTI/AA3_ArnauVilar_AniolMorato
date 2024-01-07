@@ -23,13 +23,13 @@ object SharedPreferencesManager {
             editor.apply()
         }
 
-    private const val ItemsKey = "Heroes"
-    public var Heroes: MutableList<ItemData>
+    private const val ItemsKey = "Items"
+    public var Items: MutableList<ItemData>
         get() {
             val jsonString = shared.getString(ItemsKey, "")
             val listType = object : TypeToken<MutableList<ItemData>?>() {}.type
-            val heroList: MutableList<ItemData>? = Gson().fromJson(jsonString, listType)
-            return heroList ?: mutableListOf()
+            val itemList: MutableList<ItemData>? = Gson().fromJson(jsonString, listType)
+            return itemList ?: mutableListOf()
         }
         set(value) {
             val jsonString = Gson().toJson(value)

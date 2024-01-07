@@ -11,6 +11,7 @@ import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.R
 import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.cells.Items.ItemAdapter
 import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.cells.Items.ItemProvider
 import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.cells.Items.Repositories.ItemApiService
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.fragments.components.AppTopBar
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
@@ -29,6 +30,10 @@ class ItemsScreen : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+
+        childFragmentManager.beginTransaction()
+            .replace(R.id.componentToolbarContainer, AppTopBar())
+            .commit()
 
         table = view.findViewById(R.id.my_items_table)
         table.layoutManager = LinearLayoutManager(requireContext())

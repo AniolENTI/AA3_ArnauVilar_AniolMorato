@@ -14,7 +14,7 @@ import java.sql.Timestamp
 class ItemApiService : ItemRepository {
 
     companion object {
-        const val BASE_URL = "https://gateway.marvel.com:443/v1/public/"
+        const val BASE_URL = "https://eldenring.fanapis.com/api/"
 
         val Timestamp: String get() = Timestamp(System.currentTimeMillis()).time.toString()
 
