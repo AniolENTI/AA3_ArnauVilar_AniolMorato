@@ -42,8 +42,11 @@ class ItemApiService : ItemRepository {
     }
 
     override suspend fun GetItems(): MutableList<ItemData> {
+        println("AAAAAAAAAAAAAAAAA")
 
         val response = ApiService.GetItems()
+
+
 
         if(response.isSuccessful) {
 
