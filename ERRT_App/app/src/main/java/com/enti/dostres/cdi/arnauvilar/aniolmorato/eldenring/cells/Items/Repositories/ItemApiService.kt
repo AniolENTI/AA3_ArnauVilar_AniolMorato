@@ -38,11 +38,10 @@ class ItemApiService : ItemRepository {
         suspend fun GetItems(
             @Query("ts") timestamp: String = Timestamp,
             @Query("hash") hash: String = Hash
-        ) : Response<ItemResponse>
+        ) : Response<ItemResponseData>
     }
 
     override suspend fun GetItems(): MutableList<ItemData> {
-
 
         val response = ApiService.GetItems()
 
@@ -50,8 +49,8 @@ class ItemApiService : ItemRepository {
 
         if(response.isSuccessful) {
 
-            response.body()?.itemData?.itemList?.let { item ->
-                return item
+            response.body()?.itemList?.let { items ->
+                return items
             } ?: kotlin.run {
                 //Controlar el error de alguna forma
                 return mutableListOf()

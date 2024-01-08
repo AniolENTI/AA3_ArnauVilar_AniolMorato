@@ -4,6 +4,8 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.core.view.get
+import androidx.core.view.size
 import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -42,10 +44,11 @@ class ItemsScreen : Fragment() {
         val provider = ItemProvider(repository)
 
         CoroutineScope(Dispatchers.IO).launch {
-            val heroes = provider.GetAllItems()
+            val items = provider.GetAllItems()
 
             CoroutineScope(Dispatchers.Main).launch {
-                table.adapter = ItemAdapter(heroes)
+
+                table.adapter = ItemAdapter(items)
             }
         }
     }
