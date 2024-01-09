@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ERRT</string>
+    <string name="field_email_label">Email</string>
+    <string name="field_password_label">Password</string>
+    <string name="home_title">Home</string>
+    <string name="chat_title">Chat</string>
+    <string name="login_title">Login</string>
+    <string name="field_verify_password_label">Verify Password</string>
+    <string name="login_button">Login</string>
+    <string name="register_button">Register</string>
+    <string name="back_to_login_button">Back to Login</string>
+    <string name="end_register_button">Complete Register</string>
+    <string name="login_error">ERROR ON TRY LOGIN</string>
+    <string name="user_login_message">Hello %s you are loged</string>
+    <string name="unknown_user">User Unknown</string>
+    <string name="profile_title">Profile</string>
+    <string name="chat_messages_hint">Message</string>
+    <string name="chat_upload_image_error">UploadImageError</string>
+    <string name="map_title">Map</string>
+    <string name="items_title">Items</string>
+    <string name="achievements_title">Achievements</string>
+    <string name="notes_title">Notes</string>
+    <string name="equipment_title">Equipment</string>
+    <string name="consumables_title">Consumables</string>
+    <string name="key_items_title">Key Items</string>
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean dapibus vitae sapien sed malesuada. Donec at tellus luctus, fermentum diam sed, accumsan tellus. Vestibulum a suscipit justo, sit amet varius est.</string>
+    <string name="default_push_channel_name">Pushes genèrics</string>
+
+
+</resources>

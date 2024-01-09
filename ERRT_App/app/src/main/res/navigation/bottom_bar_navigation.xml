@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_bar_navigation"
+    app:startDestination="@id/map_navigation_screen"
+    >
+
+    <fragment
+        android:id="@+id/map_navigation_screen"
+        android:name="com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.fragments.screens.MapScreen"
+        android:label="@string/map_title"
+        tools:layout="@layout/screen_map"
+        >
+        <action
+            android:id="@+id/transition_map_to_items"
+            app:destination="@id/items_navigation_screen"
+            app:enterAnim="@anim/enter_from_right"
+            app:exitAnim="@anim/exit_to_left"
+            />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/items_navigation_screen"
+        android:name="com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.fragments.screens.ItemsScreen"
+        android:label="@string/items_title"
+        tools:layout="@layout/screen_items"
+        >
+        <action
+            android:id="@+id/transition_items_to_map"
+            app:destination="@id/map_navigation_screen"
+            app:enterAnim="@anim/enter_from_left"
+            app:exitAnim="@anim/exit_to_right"
+            />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/achievements_navigation_screen"
+        android:name="com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.fragments.screens.AchievementsScreen"
+        android:label="@string/achievements_title"
+        tools:layout="@layout/screen_achievements"
+        >
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/notes_navigation_screen"
+        android:name="com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.fragments.screens.chat.ChatScreen"
+        android:label="@string/notes_title"
+        tools:layout="@layout/screen_chat"
+        >
+
+    </fragment>
+
+</navigation>

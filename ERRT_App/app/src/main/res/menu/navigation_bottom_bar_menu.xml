@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/map_bottom_bar_button"
+        android:icon="@drawable/map_icon"
+        android:title="@string/map_title"
+        />
+
+    <item
+        android:id="@+id/items_bottom_bar_button"
+        android:icon="@drawable/items_icon"
+        android:title="@string/items_title"
+        />
+
+    <item
+        android:id="@+id/achievements_bottom_bar_button"
+        android:icon="@drawable/achievement_icon"
+        android:title="@string/achievements_title"
+        />
+
+    <item
+        android:id="@+id/notes_bottom_bar_button"
+        android:icon="@drawable/notes_icon"
+        android:title="@string/notes_title"
+        />
+</group>
+</menu>
