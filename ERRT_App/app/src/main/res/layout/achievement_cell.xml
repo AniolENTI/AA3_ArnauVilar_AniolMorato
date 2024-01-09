@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="154dp"
         android:gravity="center"
-        >
+        tools:ignore="ExtraText">
 
         <ImageView
             android:id="@+id/achievement_cell_image"
@@ -47,6 +47,7 @@
                 />
 
         </LinearLayout>
+
 
         <ImageView
             android:id="@+id/achievement_cell_check"
