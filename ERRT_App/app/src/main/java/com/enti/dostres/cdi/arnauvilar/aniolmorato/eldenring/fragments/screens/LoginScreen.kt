@@ -10,6 +10,7 @@ import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.R
 import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.clases.firebase.FB
 import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.clases.models.DbUser
 import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.fragments.components.AppDrawer
+import com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.fragments.components.AppNavHost
 import com.firebase.ui.auth.AuthUI
 import com.firebase.ui.auth.AuthUI.SignInIntentBuilder
 import com.firebase.ui.auth.FirebaseAuthUIActivityResultContract
@@ -100,6 +101,7 @@ class LoginScreen: Fragment() {
             dbUser.lastLogin = Date()
 
             finalSaveUser(dbUser)
+
 
         },
             onFailure = {
