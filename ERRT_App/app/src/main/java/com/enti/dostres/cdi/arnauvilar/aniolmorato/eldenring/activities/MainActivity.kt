@@ -24,6 +24,7 @@ class MainActivity : AppCompatActivity() {
 
         setTheme(FB.remoteConfig.getTheme().themeId)
 
+        askNotificationPermission()
     }
 
     fun onNotificationPermissionResponse(isGranted: Boolean)
