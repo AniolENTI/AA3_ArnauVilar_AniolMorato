@@ -47,9 +47,9 @@
 
     <fragment
         android:id="@+id/notes_navigation_screen"
-        android:name="com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.fragments.screens.NotesScreen"
+        android:name="com.enti.dostres.cdi.arnauvilar.aniolmorato.eldenring.fragments.screens.chat.ChatScreen"
         android:label="@string/notes_title"
-        tools:layout="@layout/screen_notes"
+        tools:layout="@layout/screen_chat"
         >
 
     </fragment>

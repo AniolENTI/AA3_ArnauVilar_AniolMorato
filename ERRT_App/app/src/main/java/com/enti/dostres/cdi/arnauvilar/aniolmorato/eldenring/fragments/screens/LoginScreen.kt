@@ -117,6 +117,7 @@ class LoginScreen: Fragment() {
                 sendToastError()
             }
         )
+
     }
 
     private fun sendToastError() {

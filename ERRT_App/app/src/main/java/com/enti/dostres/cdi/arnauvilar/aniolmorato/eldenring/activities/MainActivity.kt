@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstance: Bundle?) {
         super.onCreate(savedInstance)
-        setContentView(R.layout.main_activity_screen)
+        setContentView(R.layout.login_screen)
 
         setTheme(FB.remoteConfig.getTheme().themeId)
 

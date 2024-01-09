@@ -11,6 +11,8 @@ class MyFirebaseStorage {
     private val storage = Firebase.storage
     private val storageRootRef =  storage.reference
 
+    //val user = FB.auth.getUser()?.username
+
     private val imagesPath = "Images"
     private val imagesRef = storageRootRef.child(imagesPath)
 
